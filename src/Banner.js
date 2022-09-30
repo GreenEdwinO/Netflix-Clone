@@ -26,9 +26,10 @@ function Banner() {
   return (
     <header className='banner'
       style={{
-        backgroundSize: "cover",
+        backgroundSize: "contain",
         backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
         backgroundPosition: "center center",
+        // backgroundRepeat: "no-repeat",
       }}
     >
       <div className="banner_contents">
@@ -44,7 +45,7 @@ function Banner() {
         </h1>
       </div>
 
-      <div className="banner-fadeBottom"/>
+      <div className="banner-fadeBottom" />
     </header>
   )
 }
