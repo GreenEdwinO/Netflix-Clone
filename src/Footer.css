@@ -1,0 +1,104 @@
+* {
+  color: #fff;
+}
+
+.section-p1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 60px 40px 20px 40px;
+}
+
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer .logu {
+  margin-bottom: 18px;
+}
+
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0 0 8px 0;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+footer .follow {
+  margin-top: 20px;
+}
+
+footer .follow i {
+  color: #465b52;
+  padding-right: 14px;
+  cursor: pointer;
+}
+
+footer .install .row img {
+  border-radius: 4px;
+  max-width: 130px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+footer .install img {
+  margin: 0 0 15px 0;
+}
+
+footer .install img:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  transition: .3s;
+}
+
+.install>p {
+  font-weight: 499;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: #088178;
+}
+
+footer .copyright>a {
+  margin-right: 16px;
+}
+
+footer .copyright {
+  width: 100%;
+  text-align: center;
+}
+
+footer .copyright>p {
+  margin-top: 4px;
+}
+
+footer .copyright>.green a {
+  font-weight: 550;
+  color: green;
+}
+
+@media (max-width: 799px) {
+  .section-p1 {
+    padding: 40px 8px;
+  }
+}
+
+@media (max-width: 477px) {
+  .section-p1 {
+    padding: 26px 18px;
+  }
+}

@@ -35,3 +35,9 @@
 .row_posterLarge:hover {
   transform: scale(1.09);
 }
+
+@media (max-width: 477px) {
+  .row>h2 {
+    font-size: 1.1rem;
+  }
+}

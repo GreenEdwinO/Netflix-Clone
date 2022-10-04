@@ -26,10 +26,11 @@ function Banner() {
   return (
     <header className='banner'
       style={{
-        backgroundSize: "contain",
+        backgroundSize: "cover",
         backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
         backgroundPosition: "center center",
-        // backgroundRepeat: "no-repeat",
+        backgroundRepeat: "no-repeat",
+        width: "100%",
       }}
     >
       <div className="banner_contents">
@@ -37,11 +38,13 @@ function Banner() {
           {movie?.title || movie.name || movie?.original_name}
         </h1>
         <div className="banner_buttons">
-          <button className="banner_button">Play</button>
-          <button className="banner_button">My List</button>
+          <button className="banner_button"><a href="https://www.netflix.com/ng/login" >Now Playing</a></button>
+          <button className="banner_button">
+            <a href="https://www.netflix.com/ng/login" >
+              My List</a></button>
         </div>
         <h1 className="banner_discription">
-          {truncate(movie?.overview, 150)}
+          {truncate(movie?.overview, 160)}
         </h1>
       </div>
 

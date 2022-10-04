@@ -40,7 +40,9 @@ function Row(props) {
         })
         .catch(error => console.log(error));
     }
+    console.log(movieTrailer)
   }
+
 
   return (
     <div className='row'>
