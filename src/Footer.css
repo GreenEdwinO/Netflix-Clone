@@ -14,11 +14,13 @@ footer .col {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-right: 1rem;
 }
 
 footer .logu {
   margin-bottom: 18px;
+  transition: transform 450ms;
 }
 
 footer h4 {
@@ -39,13 +41,19 @@ footer a {
 }
 
 footer .follow {
-  margin-top: 20px;
+  margin-top: 16px;
 }
 
 footer .follow i {
   color: #465b52;
   padding-right: 14px;
   cursor: pointer;
+}
+
+.col.install .row {
+  padding-left: 0;
+  margin-left: 0;
+
 }
 
 footer .install .row img {
@@ -57,11 +65,13 @@ footer .install .row img {
 
 footer .install img {
   margin: 0 0 15px 0;
+  transition: transform 450ms;
 }
 
+footer .logu:hover,
 footer .install img:hover {
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  transition: .3s;
+  transform: scale(1.08)
+    /* transition: transform 450ms; */
 }
 
 .install>p {
@@ -99,6 +109,10 @@ footer .copyright>.green a {
 
 @media (max-width: 477px) {
   .section-p1 {
-    padding: 26px 18px;
+    padding: 26px 20px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 1rem;
+    gap: 1rem;
   }
 }

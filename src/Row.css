@@ -1,5 +1,6 @@
 .row {
   color: #fff;
+  margin-top: 2rem;
   margin-left: 20px;
 }
 
@@ -39,5 +40,10 @@
 @media (max-width: 477px) {
   .row>h2 {
     font-size: 1.1rem;
+  }
+
+  .row_posters {
+    padding: 20px 0;
+    justify-content: center;
   }
 }

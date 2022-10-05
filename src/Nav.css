@@ -21,6 +21,11 @@
   width: 100px;
   object-fit: contain;
   cursor: pointer;
+  transition: transform 450ms;
+}
+
+.nav_logo:hover {
+  transform: scale(1.09)
 }
 
 .nav_avatar {
@@ -29,4 +34,9 @@
   width: 30px;
   object-fit: contain;
   cursor: pointer;
+  transition: transform 450ms;
+}
+
+.nav_avatar:hover {
+  transform: scale(1.2)
 }

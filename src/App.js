@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="App">
       < Nav />
-      <Banner/>
+      <Banner />
       <Row
-        title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals}
+        title="NETFLIX ORIGINALS      (Swipe Left or Right to view more. Click any to watch preview)" fetchUrl={requests.fetchNetflixOriginals}
         isLargeRow
       />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
@@ -20,7 +20,7 @@ function App() {
       <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
       <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
       <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

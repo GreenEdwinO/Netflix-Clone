@@ -41,7 +41,7 @@ function Banner() {
           <button className="banner_button"><a href="https://www.netflix.com/ng/login" >Now Playing</a></button>
           <button className="banner_button">
             <a href="https://www.netflix.com/ng/login" >
-              My List</a></button>
+              My Play List</a></button>
         </div>
         <h1 className="banner_discription">
           {truncate(movie?.overview, 160)}

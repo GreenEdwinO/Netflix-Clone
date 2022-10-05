@@ -30,7 +30,7 @@ function Footer() {
         <div className="col">
           <h4>My Account</h4>
           <a href='https://www.netflix.com/ng/login'>Sign in</a>
-          <a href="#">Trending for me</a>
+          <a href="#">Trending For Me</a>
           <a href="#">My Wishlist</a>
           <a href="#">My Movies</a>
           <a href="#">Help</a>
