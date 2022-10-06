@@ -40,7 +40,7 @@ function Row(props) {
         })
         .catch(error => console.log(error));
     }
-    console.log(movieTrailer)
+    // console.log(trailerUrl)
   }
 
 
