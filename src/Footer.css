@@ -74,7 +74,7 @@ footer .install img:hover {
     /* transition: transform 450ms; */
 }
 
-.install>p {
+.install > p {
   font-weight: 499;
 }
 
@@ -83,7 +83,7 @@ footer a:hover {
   color: #088178;
 }
 
-footer .copyright>a {
+footer .copyright > a {
   margin-right: 16px;
 }
 
@@ -92,11 +92,11 @@ footer .copyright {
   text-align: center;
 }
 
-footer .copyright>p {
+footer .copyright > p {
   margin-top: 4px;
 }
 
-footer .copyright>.green a {
+footer .copyright > .green a {
   font-weight: 550;
   color: green;
 }
@@ -109,7 +109,7 @@ footer .copyright>.green a {
 
 @media (max-width: 477px) {
   .section-p1 {
-    padding: 26px 20px;
+    padding: 40px 20px 20px 30px;
     justify-content: flex-start;
     align-items: center;
     padding-right: 1rem;
