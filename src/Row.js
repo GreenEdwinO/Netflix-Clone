@@ -53,7 +53,7 @@ function Row(props) {
           <img
             key={movie.id}
             onClick={() => handleClick(movie)}
-            title={movie.name}
+            title={movie.name || movie?.title || movie?.original_title}
             className={`row_poster ${props.isLargeRow && "row_posterLarge"}`}
             src={`${base_url}${props.isLargeRow ? movie.poster_path : movie.backdrop_path}`} alt={movie.name}
           />
