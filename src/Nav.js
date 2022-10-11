@@ -25,7 +25,7 @@ function Nav() {
       <a href="https://www.netflix.com/ng/login"> <img
         className='nav_avatar'
         src="https://www.iconpacks.net/icons/1/free-user-login-icon-305-thumb.png" title="Login"
-        alt="Netflix log" /></a>
+        alt="Netflix login" /></a>
     </div>
   )
 }

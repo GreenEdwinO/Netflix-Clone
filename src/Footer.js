@@ -49,11 +49,11 @@ function Footer() {
           <h4>Install the App</h4>
           <p>From App Store or Google Play</p>
           <div className="row">
-            <a href="https://apps.apple.com/us/app/netflix/id363590051"><img src="https://www.pngmart.com/files/10/Download-On-The-App-Store-PNG-Image.png" alt="" /></a>
-            <a href="https://play.google.com/store/apps/details?id=com.netflix.mediaclient&hl=en&gl=US"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_GSGDneF42Y3lPYO4HHsKm8pyRHyWRJM7er0t0T381hvQAc_ii7Hme_O_Ym6G4fSbAg&usqp=CAU" alt="" /></a>
+            <a href="https://apps.apple.com/us/app/netflix/id363590051"><img src="https://www.pngmart.com/files/10/Download-On-The-App-Store-PNG-Image.png" alt="Apple Store" /></a>
+            <a href="https://play.google.com/store/apps/details?id=com.netflix.mediaclient&hl=en&gl=US"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_GSGDneF42Y3lPYO4HHsKm8pyRHyWRJM7er0t0T381hvQAc_ii7Hme_O_Ym6G4fSbAg&usqp=CAU" alt="Google Play Store" /></a>
           </div>
           <p>Secure Payment Gateways</p>
-          <img src="https://www.kindpng.com/picc/m/52-524533_secure-payment-png-shopify-guaranteed-safe-checkout-transparent.png" style={{ width: "270px" }} alt="" />
+          <img src="https://www.kindpng.com/picc/m/52-524533_secure-payment-png-shopify-guaranteed-safe-checkout-transparent.png" style={{ width: "270px" }} alt="Secure Payment System" />
         </div>
 
         <div className="copyright">

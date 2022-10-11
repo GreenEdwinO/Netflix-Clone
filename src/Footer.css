@@ -105,6 +105,10 @@ footer .copyright > .green a {
   .section-p1 {
     padding: 40px 8px;
   }
+
+  footer .section-p1 .col.install .row a:hover {
+    color: #111;
+  }
 }
 
 @media (max-width: 477px) {
@@ -114,5 +118,9 @@ footer .copyright > .green a {
     align-items: center;
     padding-right: 1rem;
     gap: 1rem;
+  }
+
+  footer .section-p1 .col.install .row a:hover {
+    color: #111;
   }
 }
